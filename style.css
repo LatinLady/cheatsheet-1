@@ -17,38 +17,36 @@
   
   header {
     text-align: center;
-    margin-top: 10px;
+   /* margin-top: 10px;*/
     padding: 5px;
   }
   footer {
+    font-size: 100%;
     text-align: center;
     margin-top: 800px;
   }
   
   header p {
-    font-size: 15px;
-    /*margin: 10px;*/
-    /*padding-top: 10px;*/
+    font-size: 50%;
   }
+ 
   
   main {
     flex-wrap: wrap;
-    margin: 5px;
-    padding: 5px;
+  
   }
   
   .card {
-    overflow: hidden;
-    border: 3px;
-    border-top: none;
-    border-style: dotted;
-    border-radius: 10px;
     cursor: pointer;
-    margin: 40px 40px 0 55px;
-    padding: 15px;
     width: 20%;
     height: 300px;
-    float: left;
+    float:left;
+    overflow: hidden;
+    border: 3px;
+    border-style: dotted;
+    border-radius: 10px;
+    margin: 40px 40px 0 55px;
+    padding: 15px;
     transition: 0.8s;
    }
 
@@ -56,10 +54,11 @@
   .name {
     margin:5px;
     padding-bottom: 5px;
+    text-align: center;
     font-size: 100%;
     border-radius: 3px;
     box-shadow: 1px 1px white;
-    float: left;
+  
     
   }
   .card:hover {
@@ -68,14 +67,14 @@
   
   .code {
     border-radius: 5px;
-    margin: 15px;
-    padding: 5px;
+    margin: 20px;
+    padding: 4px;
     height: 180px;
    }
   
   .card p {
     font-size: 100%;
-    margin:5px;
+    margin: 5px;
     padding: 5px;
   }
   
