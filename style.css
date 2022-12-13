@@ -20,11 +20,6 @@
    /* margin-top: 10px;*/
     padding: 5px;
   }
-  footer {
-    font-size: 100%;
-    text-align: center;
-    margin-top: 800px;
-  }
   
   header p {
     font-size: 50%;
@@ -37,9 +32,11 @@
   }
   
   .card {
+    display: block;
+    flex-direction: row;
     cursor: pointer;
     width: 20%;
-    height: 300px;
+    height: 400px;
     float:left;
     overflow: hidden;
     border: 3px;
@@ -68,8 +65,8 @@
   .code {
     border-radius: 5px;
     margin: 20px;
-    padding: 4px;
-    height: 180px;
+    padding: 20px;
+    height: 250px;
    }
   
   .card p {
@@ -78,18 +75,23 @@
     padding: 5px;
   }
   
-  
+#footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
   @media screen and(max-width:992px){
-    .card {
+    header,
+    main {
       width: 33%;
     }
   }
   
   @media screen and(max-width:768px){
-    h2,
-    p,
-    .card, 
-    .code {
-      width: 100%;
+    header,
+    main {
+      flex-direction: column;
+      width: 150%;
     }
   }
