@@ -94,6 +94,6 @@
     main, 
     #footer {
       flex-direction: column;
-      width: 150%;
+      width: 100%;
     }
   }
