@@ -83,14 +83,16 @@
 
   @media screen and(max-width:992px){
     header,
-    main {
+    main,
+    #footer {
       width: 33%;
     }
   }
   
   @media screen and(max-width:768px){
     header,
-    main {
+    main, 
+    #footer {
       flex-direction: column;
       width: 150%;
     }
